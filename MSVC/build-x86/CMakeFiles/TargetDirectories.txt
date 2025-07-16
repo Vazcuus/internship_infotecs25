@@ -1,0 +1,3 @@
+C:/Programming/Interships/internship_infotecs25/MSVC/build-x86/CMakeFiles/SQLite.dir
+C:/Programming/Interships/internship_infotecs25/MSVC/build-x86/CMakeFiles/ALL_BUILD.dir
+C:/Programming/Interships/internship_infotecs25/MSVC/build-x86/CMakeFiles/ZERO_CHECK.dir

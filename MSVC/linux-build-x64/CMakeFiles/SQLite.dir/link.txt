@@ -1,0 +1,1 @@
+gcc -fPIC -shared -Wl,-soname,libSQLite_x64.so -o lib/libSQLite_x64.so CMakeFiles/SQLite.dir/src/sqlite3.c.o 

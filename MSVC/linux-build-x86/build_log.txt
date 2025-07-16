@@ -1,0 +1,222 @@
+[ 50%] Building C object CMakeFiles/SQLite.dir/src/sqlite3.c.o
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘strftimeFunc’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:14080:27: warning: cast between incompatible function types from ‘int (*)(void *)’ to ‘void (*)(void *)’ [-Wcast-function-type]
+14080 | #define SQLITE_DYNAMIC   ((sqlite3_destructor_type)sqlite3MallocSize)
+      |                           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:21921:52: note: in expansion of macro ‘SQLITE_DYNAMIC’
+21921 |                       z==zBuf ? SQLITE_TRANSIENT : SQLITE_DYNAMIC);
+      |                                                    ^~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3ErrorWithMsg’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:14080:27: warning: cast between incompatible function types from ‘int (*)(void *)’ to ‘void (*)(void *)’ [-Wcast-function-type]
+14080 | #define SQLITE_DYNAMIC   ((sqlite3_destructor_type)sqlite3MallocSize)
+      |                           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:30178:54: note: in expansion of macro ‘SQLITE_DYNAMIC’
+30178 |     sqlite3ValueSetStr(db->pErr, -1, z, SQLITE_UTF8, SQLITE_DYNAMIC);
+      |                                                      ^~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3VdbeMemSetStr’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:14080:27: warning: cast between incompatible function types from ‘int (*)(void *)’ to ‘void (*)(void *)’ [-Wcast-function-type]
+14080 | #define SQLITE_DYNAMIC   ((sqlite3_destructor_type)sqlite3MallocSize)
+      |                           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:75014:19: note: in expansion of macro ‘SQLITE_DYNAMIC’
+75014 |   }else if( xDel==SQLITE_DYNAMIC ){
+      |                   ^~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘valueFromExpr’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:14080:27: warning: cast between incompatible function types from ‘int (*)(void *)’ to ‘void (*)(void *)’ [-Wcast-function-type]
+14080 | #define SQLITE_DYNAMIC   ((sqlite3_destructor_type)sqlite3MallocSize)
+      |                           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:75419:55: note: in expansion of macro ‘SQLITE_DYNAMIC’
+75419 |       sqlite3ValueSetStr(pVal, -1, zVal, SQLITE_UTF8, SQLITE_DYNAMIC);
+      |                                                       ^~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:14080:27: warning: cast between incompatible function types from ‘int (*)(void *)’ to ‘void (*)(void *)’ [-Wcast-function-type]
+14080 | #define SQLITE_DYNAMIC   ((sqlite3_destructor_type)sqlite3MallocSize)
+      |                           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:75462:29: note: in expansion of macro ‘SQLITE_DYNAMIC’
+75462 |                          0, SQLITE_DYNAMIC);
+      |                             ^~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3VdbeExec’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:90356:38: warning: cast between incompatible function types from ‘int (*)(u32,  void *, void *, void *)’ {aka ‘int (*)(unsigned int,  void *, void *, void *)’} to ‘void (*)(void *, const char *)’ [-Wcast-function-type]
+90356 |       void (*x)(void*,const char*) = (void(*)(void*,const char*))db->xTrace;
+      |                                      ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3DefaultRowEst’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:109562:3: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+109562 |   if( pIdx->pPartIdxWhere!=0 ) a[0] -= 10;  assert( 10==sqlite3LogEst(2) );
+       |   ^~
+In file included from /mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:13599:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:109562:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+109562 |   if( pIdx->pPartIdxWhere!=0 ) a[0] -= 10;  assert( 10==sqlite3LogEst(2) );
+       |                                             ^~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:109563:3: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+109563 |   if( a[0]<33 ) a[0] = 33;                  assert( 33==sqlite3LogEst(10) );
+       |   ^~
+In file included from /mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:13599:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:109563:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+109563 |   if( a[0]<33 ) a[0] = 33;                  assert( 33==sqlite3LogEst(10) );
+       |                                             ^~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘printfFunc’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:14080:27: warning: cast between incompatible function types from ‘int (*)(void *)’ to ‘void (*)(void *)’ [-Wcast-function-type]
+14080 | #define SQLITE_DYNAMIC   ((sqlite3_destructor_type)sqlite3MallocSize)
+      |                           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:112292:25: note: in expansion of macro ‘SQLITE_DYNAMIC’
+112292 |                         SQLITE_DYNAMIC);
+       |                         ^~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘generateColumnNames’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:14080:27: warning: cast between incompatible function types from ‘int (*)(void *)’ to ‘void (*)(void *)’ [-Wcast-function-type]
+14080 | #define SQLITE_DYNAMIC   ((sqlite3_destructor_type)sqlite3MallocSize)
+      |                           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:125795:58: note: in expansion of macro ‘SQLITE_DYNAMIC’
+125795 |         sqlite3VdbeSetColName(v, i, COLNAME_NAME, zName, SQLITE_DYNAMIC);
+       |                                                          ^~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:14080:27: warning: cast between incompatible function types from ‘int (*)(void *)’ to ‘void (*)(void *)’ [-Wcast-function-type]
+14080 | #define SQLITE_DYNAMIC   ((sqlite3_destructor_type)sqlite3MallocSize)
+      |                           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:125802:52: note: in expansion of macro ‘SQLITE_DYNAMIC’
+125802 |       sqlite3VdbeSetColName(v, i, COLNAME_NAME, z, SQLITE_DYNAMIC);
+       |                                                    ^~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3InvokeBusyHandler’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:154304:12: warning: cast between incompatible function types from ‘int (*)(void *, int)’ to ‘int (*)(void *, int,  sqlite3_file *)’ [-Wcast-function-type]
+154304 |     xTra = (int(*)(void*,int,sqlite3_file*))p->xBusyHandler;
+       |            ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3_busy_timeout’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:154382:30: warning: cast between incompatible function types from ‘int (*)(void *, int,  sqlite3_file *)’ to ‘int (*)(void *, int)’ [-Wcast-function-type]
+154382 |     sqlite3_busy_handler(db, (int(*)(void*,int))sqliteDefaultBusyCallback,
+       |                              ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3_trace’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:154723:16: warning: cast between incompatible function types from ‘void (*)(void *, const char *)’ to ‘int (*)(u32,  void *, void *, void *)’ {aka ‘int (*)(unsigned int,  void *, void *, void *)’} [-Wcast-function-type]
+154723 |   db->xTrace = (int(*)(u32,void*,void*,void*))xTrace;
+       |                ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3_db_status’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:20744:10: warning: this statement may fall through [-Wimplicit-fallthrough=]
+20744 |       op = SQLITE_DBSTATUS_CACHE_WRITE+1;
+      |       ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:20746:5: note: here
+20746 |     case SQLITE_DBSTATUS_CACHE_HIT:
+      |     ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3_str_vappendf’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:27452:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+27452 |         flag_long = sizeof(char*)==sizeof(i64) ? 2 :
+      |         ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+27453 |                      sizeof(char*)==sizeof(long int) ? 1 : 0;
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:27455:7: note: here
+27455 |       case etORDINAL:
+      |       ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:27457:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+27457 |         cThousand = 0;
+      |         ~~~~~~~~~~^~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:27459:7: note: here
+27459 |       case etDECIMAL:
+      |       ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘resolveP2Values’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:76492:13: warning: this statement may fall through [-Wimplicit-fallthrough=]
+76492 |           if( pOp->p2!=0 ) p->readOnly = 0;
+      |             ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:76495:9: note: here
+76495 |         case OP_AutoCommit:
+      |         ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:76533:26: warning: this statement may fall through [-Wimplicit-fallthrough=]
+76533 |         case OP_VFilter: {
+      |                          ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:76542:9: note: here
+76542 |         default: {
+      |         ^~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3VdbeExec’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:83912:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+83912 |   if( (pIn3->flags & MEM_Null)==0 ) break;
+      |     ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:83946:1: note: here
+83946 | case OP_Halt: {
+      | ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:84079:5: warning: this statement may fall through [-Wimplicit-fallthrough=]
+84079 |   if( pOp->p1>db->aLimit[SQLITE_LIMIT_LENGTH] ){
+      |     ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:84098:1: note: here
+84098 | case OP_String: {          /* out2 */
+      | ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:87148:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+87148 | case OP_IfNoHope: {     /* jump, in3 */
+      |                   ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:87156:1: note: here
+87156 | case OP_NoConflict:     /* jump, in3 */
+      | ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:88084:38: warning: this statement may fall through [-Wimplicit-fallthrough=]
+88084 |   p->aCounter[SQLITE_STMTSTATUS_SORT]++;
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:88103:1: note: here
+88103 | case OP_Rewind: {        /* jump */
+      | ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:89384:15: warning: this statement may fall through [-Wimplicit-fallthrough=]
+89384 |   pOp->opcode = OP_AggStep1;
+      |               ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:89387:1: note: here
+89387 | case OP_AggStep1: {
+      | ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:90249:15: warning: this statement may fall through [-Wimplicit-fallthrough=]
+90249 |   pOp->opcode += 2;
+      |   ~~~~~~~~~~~~^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:90252:1: note: here
+90252 | case OP_PureFunc:              /* group */
+      | ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘resolveExprStep’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:95335:20: warning: this statement may fall through [-Wimplicit-fallthrough=]
+95335 |     case TK_ISNOT: {
+      |                    ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:95351:5: note: here
+95351 |     case TK_BETWEEN:
+      |     ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3ExprCodeTarget’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:99485:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+99485 |     case TK_AGG_COLUMN: {
+      |                         ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:99498:5: note: here
+99498 |     case TK_COLUMN: {
+      |     ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘impliesNotNullRow’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:101026:8: warning: this statement may fall through [-Wimplicit-fallthrough=]
+101025 |       if( (pExpr->pLeft->op==TK_COLUMN && IsVirtual(pExpr->pLeft->y.pTab))
+       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+101026 |        || (pExpr->pRight->op==TK_COLUMN && IsVirtual(pExpr->pRight->y.pTab))
+       |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:101030:5: note: here
+101030 |     default:
+       |     ^~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘fkActionTrigger’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:115395:11: warning: this statement may fall through [-Wimplicit-fallthrough=]
+115395 |         if( !pChanges ){
+       |           ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:115399:7: note: here
+115399 |       default:
+       |       ^~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3GenerateConstraintChecks’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:117007:17: warning: this statement may fall through [-Wimplicit-fallthrough=]
+117007 |         onError = OE_Abort;
+       |                 ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:117010:7: note: here
+117010 |       case OE_Rollback:
+       |       ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:117070:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+117070 |         sqlite3UpsertDoUpdate(pParse, pUpsert, pTab, 0, iDataCur);
+       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:117074:7: note: here
+117074 |       case OE_Ignore: {
+       |       ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:117279:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+117279 |         sqlite3UpsertDoUpdate(pParse, pUpsert, pTab, pIdx, iIdxCur+ix);
+       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:117283:7: note: here
+117283 |       case OE_Ignore: {
+       |       ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c: In function ‘sqlite3GetToken’:
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:151967:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+151967 |       if( !sqlite3Isdigit(z[1]) )
+       |         ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:151976:5: note: here
+151976 |     case CC_DIGIT: {
+       |     ^~~~
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:152066:9: warning: this statement may fall through [-Wimplicit-fallthrough=]
+152066 |       if( z[1]=='\'' ){
+       |         ^
+/mnt/c/Programming/interships/internship_infotecs25/msvc/src/sqlite3.c:152080:5: note: here
+152080 |     case CC_ID: {
+       |     ^~~~
+[100%] Linking C shared library lib/libSQLite_x86.so
+[100%] Built target SQLite

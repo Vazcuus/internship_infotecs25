@@ -1,0 +1,3 @@
+/mnt/c/Programming/interships/internship_infotecs25/msvc/linux-build-x64/CMakeFiles/SQLite.dir
+/mnt/c/Programming/interships/internship_infotecs25/msvc/linux-build-x64/CMakeFiles/edit_cache.dir
+/mnt/c/Programming/interships/internship_infotecs25/msvc/linux-build-x64/CMakeFiles/rebuild_cache.dir
