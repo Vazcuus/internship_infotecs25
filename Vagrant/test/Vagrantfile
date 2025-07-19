@@ -1,0 +1,25 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "thompsm4/ubuntu22.04.5-desktop"
+  config.vm.box_version = "1.0.0"
+  config.vm.network :public_network, :bridge => 'em1',:use_dhcp_assigned_default_route => true
+
+  config.ssh.username = 'vagrant'
+  config.ssh.password = 'vagrant'
+  config.ssh.insert_key = false
+
+  config.vm.provision "shell", inline: <<-SHELL
+     sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config    
+     systemctl restart sshd.service
+  SHELL
+
+  # config.vm.box_check_update = false
+  # config.vm.network "forwarded_port", guest: 2222, host: 5555
+  # config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
+    vb.memory = "1024"
+    vb.name = "Debian 9 x32"
+  end
+  
+end
